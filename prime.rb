@@ -1,7 +1,6 @@
 # Add  code here!
 def prime?(n)
-  while sqrt(n) > 2
-    break if 
+  while n > 1
+    
   end
-  true
 end
