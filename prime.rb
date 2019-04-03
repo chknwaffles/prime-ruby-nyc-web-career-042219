@@ -1,7 +1,9 @@
 # Add  code here!
 def prime?(n)
   f = 0
-  while n > 1
-    if n % n
+  for i in 2..sqrt(n)
+    if n % i != 0
+      return true
+    end
   end
 end
