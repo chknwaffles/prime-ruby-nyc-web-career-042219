@@ -1,7 +1,6 @@
 # Add  code here!
 def prime?(n)
   return true if n == 2
-  return true if n == 3
   return false if n <= 1
   
   for i in 2..n
@@ -9,5 +8,4 @@ def prime?(n)
       return false
     end
   end
-  return true
 end
